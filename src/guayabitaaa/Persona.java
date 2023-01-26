@@ -29,3 +29,4 @@ public abstract class Persona{
     protected abstract void ganarDinero(int dinero);
     protected abstract void perderDinero(int dinero);
 }
+//jdghgfhgfddh
