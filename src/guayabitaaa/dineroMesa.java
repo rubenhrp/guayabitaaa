@@ -5,17 +5,23 @@ package guayabitaaa;
  *
  * @author ruben
  */
-public class Jugador extends Persona implements GanarDinero,PerderDinero{
+public class dineroMesa extends Persona implements GanarDinero,PerderDinero {
 
-    public Jugador(String nombre,int dinero ) {
+    public dineroMesa() {
+    }
+
+    
+    public dineroMesa(String nombre,int dinero ) {
         this.nombre = nombre;
         this.dinero = dinero;
     }
     
-    protected String mostrarJ(){
-        return "nombre del jugador "+nombre+" dinero del jugador es "+dinero+" monedas";
+    
+    protected String dineroM(){
+        return "el dinero en la mesa es:"+dinero;
     }
-
+    
+    
 
     @Override
     public void  PerderDinero(int dinero) {
@@ -30,5 +36,4 @@ public class Jugador extends Persona implements GanarDinero,PerderDinero{
     }
     
 
-    
 }

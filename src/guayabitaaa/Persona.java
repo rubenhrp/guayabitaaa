@@ -26,7 +26,4 @@ public abstract class Persona{
         this.dinero = dinero;
     }
         
-    protected abstract void ganarDinero(int dinero);
-    protected abstract void perderDinero(int dinero);
 }
-//jdghgfhgfddh
