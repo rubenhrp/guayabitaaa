@@ -3,10 +3,7 @@ package guayabitaaa;
 
 import java.util.Scanner;
 
-/**
- *
- * @author ruben
- */
+
 public class Turnos {
     
     Scanner sn = new Scanner(System.in);

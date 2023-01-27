@@ -1,10 +1,7 @@
 
 package guayabitaaa;
 
-/**
- *
- * @author ruben
- */
+
 public abstract class Persona{
     
     protected String nombre;

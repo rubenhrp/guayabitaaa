@@ -1,10 +1,7 @@
 
 package guayabitaaa;
 
-/**
- *
- * @author ruben
- */
+
 public class dineroMesa extends Persona implements GanarDinero,PerderDinero {
 
     public dineroMesa() {

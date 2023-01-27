@@ -1,10 +1,7 @@
 
 package guayabitaaa;
 
-/**
- *
- * @author ruben
- */
+
 public class Jugador extends Persona implements GanarDinero,PerderDinero{
 
     public Jugador(String nombre,int dinero ) {
